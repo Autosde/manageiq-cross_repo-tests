@@ -14,7 +14,7 @@ matrix:
   fast_finish: true
 env:
   global:
-  - REPOS=autosde/manageiq-providers-autosde@fix-openapi-client-generation,manageiq
+  - REPOS=autosde/manageiq-providers-autosde@test_gem,manageiq
   matrix:
-  - TEST_REPO=autosde/manageiq-providers-autosde@fix-openapi-client-generation
+  - TEST_REPO=autosde/manageiq-providers-autosde@test_gem
   - TEST_REPO=manageiq
