@@ -14,8 +14,9 @@ matrix:
   fast_finish: true
 env:
   global:
-  - REPOS=
+  - REPOS=autosde/manageiq-providers-autosde@test_gem,manageiq
   matrix:
+  - TEST_REPO=autosde/manageiq-providers-autosde@test_gem
   - TEST_REPO=manageiq
 
 # Convenience list of repos for copy/paste
